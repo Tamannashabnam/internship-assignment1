@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: aqua;
+}
+
+.nav-bar {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+  background-color: aliceblue;
+}
+
+i {
+  padding: 30px;
+}
+
+.circle-icon {
+  background: #6a6c6d;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.circle-icon:hover {
+  background-color: orange;
+
+}
+
+.free {}
+
+.new-free {
+  display: flex;
+  padding: 40px;
+  ;
+
+}
+
+.psd {
+  margin-top: 15px;
+}
