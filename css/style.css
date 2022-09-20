@@ -1,17 +1,25 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-color: aqua;
+  background-color: gainsboro;
+}
+
+container {
+  display: flex;
 }
 
 .nav-bar {
-  margin-left: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid;
-  background-color: aliceblue;
+  background-color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 i {
+  margin-top: 10px;
   padding: 30px;
 }
 
@@ -31,10 +39,45 @@ i {
 .new-free {
   display: flex;
   padding: 40px;
-  ;
 
 }
 
 .psd {
   margin-top: 15px;
+}
+
+.home {
+  display: flex;
+
+  justify-content: space-evenly;
+  background-color: rgb(205, 92, 92);
+}
+
+#demo {
+
+  width: 150px;
+  height: 40px;
+  transition-property: width;
+}
+
+#demo:hover {
+  background-color: rgb(75, 53, 44);
+  width: 400px;
+}
+
+.example {
+  text-align: end;
+}
+
+#btn {
+  color: white;
+  background-color:
+    rgb(205, 92, 92);
+}
+
+.help {
+  background-image: url(images/3919.png);
+  background-size: cover;
+  height: 80vh;
+  width: auto;
 }
